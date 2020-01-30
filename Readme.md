@@ -1,2 +1,2 @@
 My Resume.
-[EmmanuelAkindeCV](https://harkindey.github.io/);
+[EmmanuelAkindeCV](https://harkindey.github.io/)

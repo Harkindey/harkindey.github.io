@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 (async () => {
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
-	await page.goto('https://standardresume.co/r/emmanuelakinde', {
+	await page.goto('https://harkindey.github.io/', {
 		waitUntil: 'networkidle2',
 	});
 	await page.pdf({ path: 'EmmanuelAkindeCV.pdf', format: 'A4' });
