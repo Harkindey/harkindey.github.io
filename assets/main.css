@@ -493,18 +493,48 @@ input[type='checkbox'] {
   }
 }
 
-.resume-outer-wrap {
+.resume-outer-wrap,
+.standard-resume .footer-logo-wrap {
   width: 880px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (max-width: 920px) {
-  .resume-outer-wrap {
+
+  .resume-outer-wrap,
+  .standard-resume .footer-logo-wrap {
     width: auto;
     margin-left: 20px;
     margin-right: 20px;
   }
+}
+
+.standard-resume .footer-logo-wrap {
+  margin-top: 80px;
+  width: 120px;
+  margin-right: 0 !important;
+}
+
+@media (min-width: 900px) {
+  .standard-resume .footer-logo-wrap {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 977px) {
+  .standard-resume .footer-logo-wrap {
+    bottom: 60px;
+    right: 60px;
+  }
+}
+
+.standard-resume .footer-logo-wrap .footer-link,
+.standard-resume .footer-logo-wrap .footer-logo {
+  width: 120px;
 }
 
 .icon-user {
@@ -883,6 +913,8 @@ input[type='checkbox'] {
     display: none !important;
   }
 }
+
+
 
 /*!
  * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
