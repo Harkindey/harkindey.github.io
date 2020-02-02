@@ -8,7 +8,7 @@ const puppeteer = require('puppeteer');
 	});
 	await page.emulateMedia('screen');
 	await page.pdf({
-		path: 'EmmanuelAkindeCV2.pdf',
+		path: 'assets/EmmanuelAkindeCV2.pdf',
 		format: 'A4',
 		preferCSSPageSize: true,
 		printBackground: true,
