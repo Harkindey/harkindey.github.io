@@ -19,12 +19,9 @@
 
 @font-face {
 	font-family: 'lft-etica';
-	src: url('https://use.typekit.net/af/a87db4/000000000000000000017359/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3')
-			format('woff2'),
-		url('https://use.typekit.net/af/a87db4/000000000000000000017359/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3')
-			format('woff'),
-		url('https://use.typekit.net/af/a87db4/000000000000000000017359/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3')
-			format('opentype');
+	src: url('https://use.typekit.net/af/a87db4/000000000000000000017359/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('woff2'),
+		url('https://use.typekit.net/af/a87db4/000000000000000000017359/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('woff'),
+		url('https://use.typekit.net/af/a87db4/000000000000000000017359/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('opentype');
 	font-display: auto;
 	font-style: normal;
 	font-weight: 300;
@@ -32,12 +29,9 @@
 
 @font-face {
 	font-family: 'lft-etica';
-	src: url('https://use.typekit.net/af/27da7b/000000000000000000017357/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3')
-			format('woff2'),
-		url('https://use.typekit.net/af/27da7b/000000000000000000017357/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3')
-			format('woff'),
-		url('https://use.typekit.net/af/27da7b/000000000000000000017357/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3')
-			format('opentype');
+	src: url('https://use.typekit.net/af/27da7b/000000000000000000017357/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3') format('woff2'),
+		url('https://use.typekit.net/af/27da7b/000000000000000000017357/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3') format('woff'),
+		url('https://use.typekit.net/af/27da7b/000000000000000000017357/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3') format('opentype');
 	font-display: auto;
 	font-style: normal;
 	font-weight: 200;
@@ -45,12 +39,9 @@
 
 @font-face {
 	font-family: 'lft-etica';
-	src: url('https://use.typekit.net/af/b628f6/00000000000000000001735d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3')
-			format('woff2'),
-		url('https://use.typekit.net/af/b628f6/00000000000000000001735d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3')
-			format('woff'),
-		url('https://use.typekit.net/af/b628f6/00000000000000000001735d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3')
-			format('opentype');
+	src: url('https://use.typekit.net/af/b628f6/00000000000000000001735d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3') format('woff2'),
+		url('https://use.typekit.net/af/b628f6/00000000000000000001735d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3') format('woff'),
+		url('https://use.typekit.net/af/b628f6/00000000000000000001735d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3') format('opentype');
 	font-display: auto;
 	font-style: normal;
 	font-weight: 600;
@@ -58,12 +49,9 @@
 
 @font-face {
 	font-family: 'lft-etica';
-	src: url('https://use.typekit.net/af/3cbaa0/00000000000000000001735f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
-			format('woff2'),
-		url('https://use.typekit.net/af/3cbaa0/00000000000000000001735f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
-			format('woff'),
-		url('https://use.typekit.net/af/3cbaa0/00000000000000000001735f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
-			format('opentype');
+	src: url('https://use.typekit.net/af/3cbaa0/00000000000000000001735f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3') format('woff2'),
+		url('https://use.typekit.net/af/3cbaa0/00000000000000000001735f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3') format('woff'),
+		url('https://use.typekit.net/af/3cbaa0/00000000000000000001735f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3') format('opentype');
 	font-display: auto;
 	font-style: normal;
 	font-weight: 700;
@@ -483,17 +471,18 @@ input[type='checkbox'] {
 .account-page .account-inner,
 .inner-wrap,
 .e-a .sr-section,
-.e-a > header {
+.e-a>header {
 	width: 580px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 @media (max-width: 620px) {
+
 	.account-page .account-inner,
 	.inner-wrap,
 	.e-a .sr-section,
-	.e-a > header {
+	.e-a>header {
 		width: auto;
 		margin-left: 20px;
 		margin-right: 20px;
@@ -522,6 +511,7 @@ input[type='checkbox'] {
 }
 
 @media (max-width: 920px) {
+
 	.resume-outer-wrap,
 	.e-a .footer-logo-wrap {
 		width: auto;
@@ -621,7 +611,7 @@ input[type='checkbox'] {
 	background: #1be28d;
 }
 
-.c-main-logo > div {
+.c-main-logo>div {
 	font-size: 13px;
 	font-weight: 600;
 	margin: 0;
@@ -698,11 +688,11 @@ input[type='checkbox'] {
 	margin-bottom: 15px;
 }
 
-.e-a > header {
+.e-a>header {
 	position: relative;
 }
 
-.e-a > header > div {
+.e-a>header>div {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-justify-content: space-between;
@@ -710,21 +700,21 @@ input[type='checkbox'] {
 	margin-bottom: 30px;
 }
 
-.e-a > header h1 {
+.e-a>header h1 {
 	padding-top: 9px;
 }
 
-.e-a > header .logo-wrap {
+.e-a>header .logo-wrap {
 	width: 148px;
 }
 
 @media (min-width: 900px) {
-	.e-a > header .logo-wrap {
+	.e-a>header .logo-wrap {
 		position: absolute;
 		left: -150px;
 	}
 
-	.e-a > header > div {
+	.e-a>header>div {
 		margin-bottom: 0;
 	}
 }
@@ -843,8 +833,8 @@ input[type='checkbox'] {
 	color: #fff;
 }
 
-.e-a.cs-fc-ff585a .c-main-logo {
-	background: #ff585a;
+.e-a.cs-fc-ee3e36 .c-main-logo {
+	background: #ee3e36;
 	color: #fff;
 }
 
@@ -921,7 +911,7 @@ input[type='checkbox'] {
 		clear: both;
 	}
 
-	.sr-section.print-contact .contact-block > div {
+	.sr-section.print-contact .contact-block>div {
 		float: left;
 	}
 
