@@ -9,7 +9,10 @@
   "author": "Emmanuel Akinde",
   "license": "ISC",
   "dependencies": {
-    "puppeteer-core": "^2.1.0"
+    "jspdf": "^1.5.3",
+    "puppeteer": "^2.1.0",
+    "puppeteer-core": "^2.1.0",
+    "wkhtmltopdf": "^0.3.4"
   },
   "devDependencies": {
     "purify-css": "^1.2.5"
