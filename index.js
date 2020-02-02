@@ -6,11 +6,9 @@ const puppeteer = require('puppeteer');
 	await page.goto('http://localhost:8080/new.html', {
 		waitUntil: 'networkidle2',
 	});
-	await page.emulateMedia('screen');
 	await page.pdf({
 		path: 'assets/EmmanuelAkindeCV2.pdf',
-		format: 'A4',
-		preferCSSPageSize: true,
+		// format: 'A4',
 		printBackground: true,
 	});
 
