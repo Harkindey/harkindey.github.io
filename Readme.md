@@ -4,7 +4,7 @@ My Resume.
 Tools
 
 -   https://html2pdf.com/
--   https://foundation.zurb.com/emails/inliner-v2.html
+-   https://get.foundation/emails/inliner.html
 -   https://www.npmjs.com/package/jspdf
 -   https://www.npmjs.com/package/html2canvas
 
