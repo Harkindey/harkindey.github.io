@@ -1,5 +1,5 @@
-My Resume.
-[EmmanuelAkindeCV](https://harkindey.github.io/)
+My Resume:
+[Emmanuel Akinde CV](https://harkindey.github.io/)
 
 Tools
 
