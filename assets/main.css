@@ -676,6 +676,11 @@ input[type='checkbox'] {
 	color: #c9cccf;
 }
 
+.e-a .sr-section .sr-section-items h2 {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
 .e-a .sr-section h3 {
 	text-transform: uppercase;
 	font-weight: 600;
@@ -891,6 +896,7 @@ input[type='checkbox'] {
 .contact-wrap a {
 	word-wrap: break-word;
 }
+
 
 @media print {
 	.sr-section.print-contact {
