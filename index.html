@@ -1,761 +1,689 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width,minimum-scale=1,initial-scale=1"
-		/>
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:site" content="@standardresume" />
-		<meta property="og:type" content="website" />
-		<meta property="og:locale" content="en_US" />
-		<meta property="og:site_name" content="Emmanuel Akinde" />
-		<link rel="stylesheet" href="./assets/main.css" />
-		<link rel="stylesheet" href="./assets/main.css" media="print" />
-		<link
-			href="./assets/favicon.ico"
-			rel="shortcut icon"
-			type="image/x-icon"
-		/>
-		<title>Emmanuel Akinde | Mobile Engineer at Brass</title>
-		<meta name="robots" content="index,follow" />
-		<meta name="googlebot" content="index,follow" />
-		<meta
-			name="description"
-			content="View Emmanuel Akinde&#39;s professional resume and download a PDF copy."
-		/>
-		<meta
-			property="og:title"
-			content="Emmanuel Akinde | Mobile Engineer (emmanuelreactdev@gmail.com ) at Brass "
-		/>
-		<meta
-			property="og:description"
-			content="View Emmanuel Akinde&#39;s professional resume and download a PDF copy."
-		/>
-		<meta property="og:image:width" content="2400" />
-		<meta property="og:image:height" content="1260" />
-	</head>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+	<title>Emmanuel Akinde | Senior Mobile Engineer</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
 
-	<body data-gr-c-s-loaded="true" cz-shortcut-listen="true">
-		<div id="__next">
-			<div class="e-a cs-fc-ee3e36">
-				<header style="display: flex">
-					<div>
-						<div class="logo-wrap">
-							<div class="c-main-logo resume">
-								<div>E</div>
-								<div>A</div>
-							</div>
-						</div>
-					</div>
-					<h1>Emmanuel Akinde</h1>
-				</header>
-				<section class="sr-section summary">
-					<p class="label">Frontend Engineer | Mobile Engineer</p>
-					<p>
-						Emmanuel is a motivated and dedicated Software Developer
-						with over 5 years of experience in front-end and mobile
-						development. He specializes in React and React Native,
-						with excellent experience in but not limited to
-						payments, banking, and financial services. Emmanuel is a
-						user-focused professional who emphasizes performance and
-						accessibility.
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+			background: #f5f5f5;
+			color: #333;
+			line-height: 1.6;
+			padding: 40px 20px;
+		}
+
+		.resume-container {
+			max-width: 1200px;
+			margin: 0 auto;
+			background: white;
+			padding: 40px 50px;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+			position: relative;
+		}
+
+		.resume-container::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-image: 
+				repeating-linear-gradient(45deg, transparent, transparent 10px, #f0f0f0 10px, #f0f0f0 20px);
+			opacity: 0.03;
+			pointer-events: none;
+		}
+
+		.header {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin-bottom: 25px;
+			position: relative;
+			z-index: 1;
+		}
+
+		.header-left {
+			flex: 1;
+		}
+
+		.name {
+			font-size: 42px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 1.5px;
+			margin-bottom: 6px;
+			color: #000;
+		}
+
+		.title {
+			font-size: 16px;
+			color: #2563eb;
+			font-weight: 500;
+			margin-bottom: 12px;
+		}
+
+		.contact-info {
+			display: flex;
+			flex-direction: column;
+			font-size: 14px;
+			color: #666;
+		}
+
+		.contact-info a {
+			color: #666;
+			text-decoration: none;
+		}
+
+		.contact-info a:hover {
+			color: #2563eb;
+		}
+
+		.profile-picture {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			background: #2563eb;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: white;
+			font-size: 40px;
+			font-weight: 700;
+			flex-shrink: 0;
+		}
+
+		.content-wrapper {
+			display: grid;
+			grid-template-columns: 1.2fr 0.8fr;
+			gap: 40px;
+			position: relative;
+			z-index: 1;
+		}
+
+		.left-column, .right-column {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+
+		.section {
+			margin-bottom: 0;
+		}
+
+		.section-title {
+			font-size: 14px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 1.2px;
+			margin-bottom: 12px;
+			color: #000;
+			border-bottom: 2px solid #2563eb;
+			padding-bottom: 5px;
+		}
+
+		.summary-text {
+			font-size: 13px;
+			color: #555;
+			line-height: 1.6;
+		}
+
+		.experience-item, .project-item {
+			margin-bottom: 20px;
+		}
+
+		.experience-header {
+			margin-bottom: 12px;
+		}
+
+		.job-title {
+			font-size: 17px;
+			font-weight: 600;
+			margin-bottom: 3px;
+			color: #000;
+		}
+
+		.company-info {
+			font-size: 12px;
+			color: #666;
+			margin-bottom: 6px;
+		}
+
+		.company-info a {
+			color: #2563eb;
+			text-decoration: none;
+		}
+
+		.company-info a:hover {
+			color: #2563eb;
+			text-decoration: underline;
+		}
+
+		.job-description {
+			font-size: 12px;
+			color: #555;
+			margin-bottom: 8px;
+			line-height: 1.5;
+		}
+
+		.highlights {
+			list-style: none;
+			padding-left: 0;
+		}
+
+		.highlights li {
+			font-size: 12px;
+			color: #555;
+			margin-bottom: 5px;
+			padding-left: 18px;
+			position: relative;
+			line-height: 1.4;
+		}
+
+		.highlights li::before {
+			content: '•';
+			position: absolute;
+			left: 0;
+			color: #2563eb;
+			font-weight: bold;
+		}
+
+		.achievement-item {
+			margin-bottom: 12px;
+			position: relative;
+		}
+
+		.achievement-icon {
+			position: absolute;
+			left: 0;
+			top: 2px;
+			width: 20px;
+			height: 20px;
+			background: #2563eb;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: white;
+			font-size: 12px;
+		}
+
+		.achievement-title {
+			font-weight: 600;
+			font-size: 13px;
+			margin-bottom: 3px;
+			color: #000;
+		}
+
+		.achievement-desc {
+			font-size: 12px;
+			color: #555;
+			line-height: 1.4;
+		}
+
+		.skills-list {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 8px;
+			list-style: none;
+			padding: 0;
+		}
+
+		.skills-list li {
+			background: #f0f4ff;
+			color: #2563eb;
+			padding: 4px 10px;
+			border-radius: 4px;
+			font-size: 11px;
+			font-weight: 500;
+		}
+
+		.project-item {
+			margin-bottom: 18px;
+		}
+
+		.project-title {
+			font-size: 14px;
+			font-weight: 600;
+			margin-bottom: 4px;
+			color: #000;
+		}
+
+		.project-desc {
+			font-size: 12px;
+			color: #555;
+			margin-bottom: 3px;
+			line-height: 1.4;
+		}
+
+		.project-link {
+			font-size: 13px;
+			color: #2563eb;
+			text-decoration: none;
+		}
+
+		.project-link:hover {
+			text-decoration: underline;
+		}
+
+		.education-item {
+			margin-bottom: 20px;
+		}
+
+		.degree {
+			font-size: 18px;
+			font-weight: 600;
+			margin-bottom: 4px;
+			color: #000;
+		}
+
+		.school {
+			font-size: 15px;
+			color: #666;
+			margin-bottom: 4px;
+		}
+
+		.education-date {
+			font-size: 13px;
+			color: #999;
+		}
+
+		.training-item {
+			margin-bottom: 10px;
+		}
+
+		.training-title {
+			font-weight: 600;
+			font-size: 12px;
+			margin-bottom: 3px;
+			color: #000;
+		}
+
+		.training-desc {
+			font-size: 11px;
+			color: #666;
+			line-height: 1.4;
+		}
+
+		.passion-item {
+			margin-bottom: 10px;
+		}
+
+		.passion-title {
+			font-weight: 600;
+			font-size: 12px;
+			margin-bottom: 3px;
+			color: #000;
+		}
+
+		.passion-desc {
+			font-size: 11px;
+			color: #666;
+			line-height: 1.4;
+		}
+
+		@media print {
+			body {
+				background: white;
+				padding: 0;
+			}
+			.resume-container {
+				box-shadow: none;
+				padding: 25px 35px;
+				max-width: 100%;
+			}
+			.header {
+				display: flex !important;
+				flex-direction: row !important;
+				margin-bottom: 18px !important;
+			}
+			.name {
+				font-size: 36px !important;
+				margin-bottom: 4px !important;
+			}
+			.title {
+				font-size: 14px !important;
+				margin-bottom: 8px !important;
+			}
+			.contact-info {
+				font-size: 11px !important;
+				gap: 4px !important;
+			}
+			.profile-picture {
+				width: 85px !important;
+				height: 85px !important;
+				font-size: 34px !important;
+			}
+			.content-wrapper {
+				display: grid !important;
+				grid-template-columns: 1.2fr 0.8fr !important;
+				gap: 25px !important;
+			}
+			.left-column, .right-column {
+				display: flex !important;
+				flex-direction: column !important;
+				gap: 18px !important;
+			}
+			.section-title {
+				font-size: 12px !important;
+				margin-bottom: 8px !important;
+				padding-bottom: 3px !important;
+			}
+			.summary-text {
+				font-size: 11px !important;
+				line-height: 1.5 !important;
+			}
+			.job-title {
+				font-size: 15px !important;
+				margin-bottom: 2px !important;
+			}
+			.company-info {
+				font-size: 10px !important;
+				margin-bottom: 4px !important;
+			}
+			.job-description {
+				font-size: 10px !important;
+				line-height: 1.4 !important;
+				margin-bottom: 6px !important;
+			}
+			.highlights li {
+				font-size: 10px !important;
+				margin-bottom: 3px !important;
+				line-height: 1.3 !important;
+			}
+			.experience-item {
+				margin-bottom: 15px !important;
+			}
+			.project-item {
+				margin-bottom: 12px !important;
+			}
+			.project-title {
+				font-size: 12px !important;
+				margin-bottom: 3px !important;
+			}
+			.project-desc {
+				font-size: 10px !important;
+				line-height: 1.3 !important;
+			}
+			.project-link {
+				font-size: 9px !important;
+			}
+			.achievement-item {
+				margin-bottom: 8px !important;
+				padding-left: 24px !important;
+			}
+			.achievement-icon {
+				width: 16px !important;
+				height: 16px !important;
+				font-size: 10px !important;
+			}
+			.achievement-title {
+				font-size: 11px !important;
+				margin-bottom: 2px !important;
+			}
+			.achievement-desc {
+				font-size: 10px !important;
+				line-height: 1.3 !important;
+			}
+			.skills-list li {
+				font-size: 9px !important;
+				padding: 3px 8px !important;
+				margin-bottom: 4px !important;
+			}
+			.degree {
+				font-size: 15px !important;
+				margin-bottom: 3px !important;
+			}
+			.school {
+				font-size: 12px !important;
+				margin-bottom: 3px !important;
+			}
+			.education-date {
+				font-size: 10px !important;
+			}
+			.training-item {
+				margin-bottom: 8px !important;
+			}
+			.training-title {
+				font-size: 10px !important;
+				margin-bottom: 2px !important;
+			}
+			.training-desc {
+				font-size: 9px !important;
+				line-height: 1.3 !important;
+			}
+			.passion-item {
+				margin-bottom: 8px !important;
+			}
+			.passion-title {
+				font-size: 10px !important;
+				margin-bottom: 2px !important;
+			}
+			.passion-desc {
+				font-size: 9px !important;
+				line-height: 1.3 !important;
+			}
+			@page {
+				size: letter;
+				margin: 0.4in;
+			}
+		}
+
+		@media screen and (max-width: 968px) {
+			.content-wrapper {
+				grid-template-columns: 1fr;
+				gap: 40px;
+			}
+			.header {
+				flex-direction: column;
+				align-items: flex-start;
+			}
+			.profile-picture {
+				margin-top: 20px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="resume-container">
+		<div class="header">
+			<div class="header-left">
+				<div class="name">Emmanuel Akinde</div>
+				<div class="title">Senior Mobile Engineer | React Native | TypeScript</div>
+				<div class="contact-info">
+					<div>Email: <a href="mailto:emmanuelreactdev@gmail.com">emmanuelreactdev@gmail.com</a></div>
+					<div>Phone: <a href="tel:+2348101597773">+234 810 159 7773</a></div>
+					<div>LinkedIn: <a href="https://www.linkedin.com/in/emmanuel-akinde/" target="_blank">linkedin.com/in/emmanuel-akinde</a></div>
+					<div>GitHub: <a href="https://github.com/Harkindey" target="_blank">github.com/Harkindey</a></div>
+				</div>
+			</div>
+			<div class="profile-picture">EA</div>
+		</div>
+
+		<div class="content-wrapper">
+			<div class="left-column">
+				<section class="section">
+					<h2 class="section-title">Summary</h2>
+					<p class="summary-text">
+						Senior Mobile Engineer with 8+ years building cross-platform mobile applications for global users. I specialize in React Native and TypeScript, leading mobile teams at fintech companies where reliability is critical. I've architected offline-first solutions, integrated native payment hardware, worked on Native-Web Bridge communication and expanded apps into new markets. I enjoy solving complex technical challenges while mentoring developers and collaborating with cross-functional teams to ship products millions rely on.
 					</p>
 				</section>
-				<section class="sr-section print-contact">
-					<h2>Contact Information</h2>
-					<ul class="sr-section-items">
-						<div class="contact-block">
-							<div class="contact-label">Email:</div>
-							<a
-								href="mailto: emmanuelreactdev@gmail.com"
-								class="contact-value"
-								style="margin-left: 10px"
-							>
-								emmanuelreactdev@gmail.com</a
-							>
+
+				<section class="section">
+					<h2 class="section-title">Experience</h2>
+					
+					<div class="experience-item">
+						<div class="experience-header">
+							<div class="job-title">Senior Mobile Engineer</div>
+							<div class="company-info"><a href="https://getbumpa.com" target="_blank" style="color: #2563eb; text-decoration: none;">Bumpa</a> | August 2024 – Present</div>
 						</div>
-						<div class="contact-block">
-							<div class="contact-label">Telephone:</div>
-							<a
-								href="tel:+2348101597773"
-								class="contact-value"
-								style="margin-left: 10px"
-							>
-								+23408101597773</a
-							>
-						</div>
-						<div class="contact-block">
-							<div class="contact-label">Github:</div>
-							<a
-								href="https://github.com/Harkindey"
-								target="_blank"
-								class="contact-value"
-								style="margin-left: 10px"
-							>
-								https://github.com/Harkindey</a
-							>
-						</div>
-						<div class="contact-block">
-							<div class="contact-label">LinkedIn:</div>
-							<a
-								href="https://www.linkedin.com/in/emmanuel-akinde/"
-								target="_blank"
-								class="contact-value"
-								style="margin-left: 10px"
-							>
-								https://www.linkedin.com/in/emmanuel-akinde/</a
-							>
-						</div>
-						<div class="contact-block">
-							<div
-								class="badge-base LI-profile-badge"
-								data-locale="en_US"
-								data-size="medium"
-								data-theme="dark"
-								data-type="VERTICAL"
-								data-vanity="emmanuel-akinde"
-								data-version="v1"
-							></div>
-						</div>
-					</ul>
-				</section>
-				<section class="sr-section">
-					<h2>Work Experience</h2>
-					<ul class="sr-section-items">
-						<li class="sr-section-item">
-							<div class="primary-content">
-								<a
-									href="https://www.trybrass.com/"
-									target="_blank"
-									rel="noopener noreferrer nofollow"
-									class="c-fancy-link"
-								>
-									<h3>Senior Software Engineer</h3>
-									<div class="icon-link"></div>
-								</a>
-								<div class="secondary">
-									<span>Brass Technologies</span>
-									<span class="separator">|</span>
-									<span> March, 2021 – Current </span>
-								</div>
-								<p>
-									Serving as the Mobile Team Lead and Senior
-									React/React Native engineer for a banking
-									platform that provides financial tools to
-									help small and medium enterprises
-									businesses, which make up 95% of the
-									businesses in Nigeria, with financial
-									operations and cash flow. Conducting
-									interviews and assessments for team members
-									and providing mentorship. Directly involved
-									in the product pipeline and review.
-								</p>
-							</div>
-
-							<ul class="section-highlights">
-								<li class="section-highlight">
-									Contributing to the development of the Brass
-									banking dashboard
-								</li>
-								<li class="section-highlight">
-									Building the mobile app for iOS and Android
-									with React Native
-								</li>
-								<li class="section-highlight">
-									Developing the Brass UI Kit for internal use
-									based on the product design system
-								</li>
-
-								<li class="section-highlight">
-									Develop new user-facing features
-								</li>
-								<li class="section-highlight">
-									Building pixel-perfect, buttery smooth UIs
-									across both mobile platforms
-								</li>
-								<li class="section-highlight">
-									Building reusable code and libraries for
-									future use
-								</li>
-								<li class="section-highlight">
-									Writing automated tests to ensure the
-									product is of the highest quality.
-								</li>
-								<li class="section-highlight">
-									CI/CD with Codemagic and delivering app to
-									the stores with Fastlane
-								</li>
-								<li class="section-highlight">
-									Also Lead the Mobile Team and generally
-									ensure quality of code via Code Review
-								</li>
-							</ul>
-							<ul class="sr-section-items">
-								<h2 class="skills">
-									Skills, Tools, & Specializations
-								</h2>
-								<ul class="section-highlights tags">
-									<li class="section-highlight">React.js</li>
-									<li class="section-highlight">
-										TypeScript
-									</li>
-									<li class="section-highlight">
-										JavaScript
-									</li>
-									<li class="section-highlight">Redux</li>
-									<li class="section-highlight">
-										React Native
-									</li>
-								</ul>
-							</ul>
-						</li>
-
-						<li class="sr-section-item">
-							<div class="primary-content">
-								<a
-									href="https://rise.capital/"
-									target="_blank"
-									rel="noopener noreferrer nofollow"
-									class="c-fancy-link"
-								>
-									<h3>
-										React Native Engineer | Frontend
-										Engineer
-									</h3>
-									<div class="icon-link"></div>
-								</a>
-								<div class="secondary">
-									<span>RiseVest</span>
-									<span class="separator">|</span>
-									<span> April, 2020 – April 2021 </span>
-								</div>
-								<p>
-									Rise are a technology-driven finance company
-									connecting everyday Africans with the best
-									dollar-denominated investment opportunities
-									around the world. Was involved in planning
-									and design review for various fintech
-									products. Helped build a strong front-end
-									team through interviews and assessments.
-								</p>
-							</div>
-
-							<ul class="section-highlights">
-								<li class="section-highlight">
-									Built the Advisory app that connects users
-									with financial advisors to help them make
-									intelligent and informed investment
-									decisions
-								</li>
-								<li class="section-highlight">
-									Helped build the Risevest application for
-									dollar investments for both Android and iOS
-								</li>
-								<li class="section-highlight">
-									Worked on the Rise web admin portal for
-									internal administrative management
-								</li>
-								<li class="section-highlight">
-									Leveraged native APIs for deep integrations
-									with both iOS and Android platforms
-								</li>
-								<li class="section-highlight">
-									Diagnosed and fixed bugs and performance
-									bottlenecks for performance that feels
-									native
-								</li>
-							</ul>
-
-							<ul class="sr-section-items">
-								<h2>Skills, Tools, & Specializations</h2>
-								<ul class="section-highlights tags">
-									<li class="section-highlight">React.js</li>
-									<li class="section-highlight">
-										TypeScript
-									</li>
-									<li class="section-highlight">
-										JavaScript
-									</li>
-									<li class="section-highlight">Redux</li>
-									<li class="section-highlight">
-										React Native
-									</li>
-									<li class="section-highlight">Sass</li>
-									<li class="section-highlight">
-										Material-Ui
-									</li>
-								</ul>
-							</ul>
-						</li>
-
-						<li class="sr-section-item">
-							<div class="primary-content">
-								<a
-									href="https://sportcompass.net/"
-									target="_blank"
-									rel="noopener noreferrer nofollow"
-									class="c-fancy-link"
-								>
-									<h3>Frontend Developer</h3>
-									<div class="icon-link"></div>
-								</a>
-								<div class="secondary">
-									<span>SportCompass, Denmark</span>
-									<span class="separator">|</span>
-									<span> Sep, 2019 – March, 2020 </span>
-								</div>
-								<p>
-									Helped develop the front-end of a SaaS
-									product that connects sports bars with
-									sports fans looking to watch specific games.
-									The platform allows sports bars to find
-									upcoming matches, organize and optimize
-									viewing schedules, and manage marketing,
-									while providing metrics for data-driven
-									insights to help spur customer growth and
-									retention.
-								</p>
-							</div>
-							<ul class="section-highlights">
-								<li class="section-highlights">
-									Focused on mobile accessibility and
-									transformed the existing Sport Compass
-									website, previously built as a server-side
-									page in Ruby, into a React PWA
-								</li>
-								<li class="section-highlights">
-									Worked on the admin system for managing bar
-									owners
-								</li>
-								<li class="section-highlights">
-									Collaborated with and supported colleagues
-									in the back-end development, QA, design, and
-									product domains
-								</li>
-							</ul>
-							<ul class="sr-section-items">
-								<h2 class="skills">
-									Skills, Tools, & Specializations
-								</h2>
-								<ul class="section-highlights tags">
-									<li class="section-highlight">React.js</li>
-									<li class="section-highlight">
-										TypeScript
-									</li>
-									<li class="section-highlight">
-										JavaScript
-									</li>
-									<li class="section-highlight">Redux</li>
-									<li class="section-highlight">Vanillajs</li>
-								</ul>
-							</ul>
-						</li>
-
-						<li class="sr-section-item">
-							<div class="primary-content">
-								<a
-									href="https://www.clane.com/"
-									target="_blank"
-									rel="noopener noreferrer nofollow"
-									class="c-fancy-link"
-								>
-									<h3>
-										Frontend Engineer | React Native
-										Engineer
-									</h3>
-									<div class="icon-link"></div>
-								</a>
-								<div class="secondary">
-									<span> Clane Company (Contract) </span>
-									<span class="separator">|</span>
-									<span> Oct, 2018 – August,2019 </span>
-								</div>
-								<p>
-									Worked with Angular and React Native to help
-									build financial products and services for
-									the African market using cutting-edge
-									technologies such as contactless and mobile
-									point of sale (mPOS) payments.
-								</p>
-							</div>
-							<ul class="section-highlights">
-								<li class="section-highlight">
-									Mpos Integration With React Native which
-									uses bluetooth and a MPOS device to complete
-									payments and transactions
-								</li>
-								<li class="section-highlight">
-									Developed an mPOS integration with React
-									Native that uses Bluetooth and an mPOS
-									device to complete payments and transactions
-								</li>
-								<li class="section-highlight">
-									Built a contactless payment integration with
-									React Native using near field communication
-									(NFC) to transfer payment information
-									between user and merchant devices
-								</li>
-								<li class="section-highlight">
-									Built a merchant portal system with Angular,
-									RxJS, and TypeScript
-								</li>
-							</ul>
-							<ul class="sr-section-items">
-								<h2 class="skills">
-									Skills, Tools, & Specializations
-								</h2>
-								<ul class="section-highlights tags">
-									<li class="section-highlight">React.js</li>
-									<li class="section-highlight">
-										TypeScript
-									</li>
-									<li class="section-highlight">
-										Angular 2+
-									</li>
-									<li class="section-highlight">Redux</li>
-									<li class="section-highlight">
-										React Native
-									</li>
-								</ul>
-							</ul>
-						</li>
-
-						<li class="sr-section-item">
-							<div class="primary-content">
-								<a
-									href="http://sstudio.io/"
-									target="_blank"
-									rel="noopener noreferrer nofollow"
-									class="c-fancy-link"
-								>
-									<h3>Frontend Developer</h3>
-									<div class="icon-link"></div>
-								</a>
-								<div class="secondary">
-									<span>Startup Studio</span>
-									<span class="separator">|</span>
-									<span>Jun, 2017 – Oct, 2018</span>
-								</div>
-								<p>
-									Worked as a front-end developer building
-									solutions with React, React Native, and
-									Vanilla JavaScript.
-								</p>
-							</div>
-							<ul class="section-highlights">
-								<li class="section-highlight">
-									Wrote Javascript, HTML and CSS code using
-									advanced frameworks
-								</li>
-								<li class="section-highlight">
-									Redesigned and dramatically simplified
-									overly-complex user interfaces, while
-									preserving all functionalities
-								</li>
-								<li class="section-highlight">
-									Implemented high-leverage features to
-									optimize UX and conversion rates
-								</li>
-								<li class="section-highlight">
-									Developed single-page applications (SPAs)
-									and server-side rendering
-								</li>
-								<li class="section-highlight">
-									Automated frontend testing
-								</li>
-							</ul>
-							<ul class="sr-section-items">
-								<h2 class="skills">
-									Skills, Tools, & Specializations
-								</h2>
-								<ul class="section-highlights tags">
-									<li class="section-highlight">React.js</li>
-									<li class="section-highlight">
-										TypeScript
-									</li>
-									<li class="section-highlight">VanillaJS</li>
-									<li class="section-highlight">Redux</li>
-									<li class="section-highlight">
-										React Native
-									</li>
-								</ul>
-							</ul>
-						</li>
-
-						<li class="sr-section-item">
-							<div class="primary-content">
-								<a
-									href="http://konga.com/"
-									target="_blank"
-									rel="noopener noreferrer nofollow"
-									class="c-fancy-link"
-								>
-									<h3>Software Engineering Intern</h3>
-									<div class="icon-link"></div>
-								</a>
-								<div class="secondary">
-									<span>
-										Konga Online Shopping Mall, Ikeja.
-									</span>
-									<span class="separator">|</span>
-									<span>Dec, 2016 – May, 2017</span>
-								</div>
-								<p>
-									Worked as part of the team building the
-									shipping and logistics system. Used a tech
-									stack that included back-end services in
-									PHP, Node.js, and Express.js, and front-end
-									apps in Angular and React. Interfaced with
-									clients and internal teams to gather
-									requirements and develop software solutions.
-								</p>
-							</div>
-							<ul class="section-highlights">
-								<li class="section-highlight">
-									Collaborated with the User Experience (UX)
-									team to build innovative, state-of-the-art
-									applications
-								</li>
-								<li class="section-highlight">
-									Refactored, optimized, and improved the
-									existing codebase for maintenance and
-									scalability
-								</li>
-								<li class="section-highlight">
-									Used back-end data services and supported
-									data service APIs
-								</li>
-								<li class="section-highlight">
-									Used test-driven development (TDD) to ensure
-									feature quality
-								</li>
-								<li class="section-highlight">
-									Documented development processes,
-									architecture, and standard components
-								</li>
-							</ul>
-							<ul class="sr-section-items">
-								<h2 class="skills">
-									Skills, Tools, & Specializations
-								</h2>
-								<ul class="section-highlights tags">
-									<li class="section-highlight">
-										TypeScript
-									</li>
-									<li class="section-highlight">
-										TypeScript
-									</li>
-									<li class="section-highlight">
-										Angular 2+
-									</li>
-									<li class="section-highlight">PHP</li>
-									<li class="section-highlight">Node.js</li>
-								</ul>
-							</ul>
-						</li>
-
-						<li class="sr-section-item">
-							<div class="primary-content">
-								<a
-									href="http://fiverr.com/"
-									target="_blank"
-									rel="noopener noreferrer nofollow"
-									class="c-fancy-link"
-								>
-									<h3>Fiverr</h3>
-									<div class="icon-link"></div>
-								</a>
-								<div class="secondary">
-									<span>Freelance Javascript Developer</span>
-									<span class="separator">|</span>
-									<span>May, 2016 – Dec, 2017</span>
-								</div>
-								<p>
-									Built solutions with React, React Native,
-									and Node.js on a freelance basis for clients
-									around the world.
-								</p>
-							</div>
-							<ul class="section-highlights">
-								<li class="section-highlight">
-									Implemented UI/UX designs and mock-ups
-								</li>
-								<li class="section-highlight">
-									Implemented automation tasks using Grunt and
-									Gulp
-								</li>
-								<li class="section-highlight">
-									Became familiar with the AWS stack
-								</li>
-							</ul>
-							<ul class="sr-section-items">
-								<h2 class="skills">
-									Skills, Tools, & Specializations
-								</h2>
-								<ul class="section-highlights tags">
-									<li class="section-highlight">React.js</li>
-									<li class="section-highlight">
-										TypeScript
-									</li>
-									<li class="section-highlight">
-										JavaScript
-									</li>
-									<li class="section-highlight">
-										React Native
-									</li>
-								</ul>
-							</ul>
-						</li>
-					</ul>
-				</section>
-				<section class="sr-section">
-					<h2>Education</h2>
-					<ul class="sr-section-items">
-						<li class="sr-section-item">
-							<div class="primary-content">
-								<span>
-									<h3>Obafemi Awolowo University</h3>
-								</span>
-								<div class="secondary">
-									<span>Computer Engineering - CS Major</span>
-									<span class="separator">|</span>
-									<span>Mar, 2012 – Feb, 2017</span>
-								</div>
-								<p>
-									Took courses like: Object Oriented
-									Programming, Assembly Language, Data
-									structures and Algorithm, Automata Therory,
-									Compilers, Human and Computer Interactions,
-									Project Management, Computer Architecture,
-									Artificial Intelligence, Natural Language
-									Processing e.t.c Also Contributed to the
-									Developer's Community: GDG OAU, Consonance,
-									IEEE, WIE.
-								</p>
-							</div>
-						</li>
-					</ul>
-				</section>
-
-				<section class="sr-section">
-					<h2>Projects</h2>
-
-					<ul class="sr-section-items">
-						<li class="sr-section-item">
-							<div class="primary-content">
-								<a
-									href="https://www.yoursdao.xyz/posts/pozzle-planet-dao"
-									target="_blank"
-									rel="noopener noreferrer nofollow"
-									class="c-fancy-link"
-								>
-									<h3>Web3 React Native Developer</h3>
-									<div class="icon-link"></div>
-								</a>
-								<div class="secondary">
-									<span>PozzlePlanet</span>
-									<span class="separator">|</span>
-									<span>Feb, 2019 – Nov 2019</span>
-								</div>
-								<p>
-									Changed the application from JavaScript to
-									TypeScript, including global definition
-									declarations. Changed all prototypes to
-									interfaces. Rewrote and optimized all
-									performance for reusability and better
-									performance.
-								</p>
-							</div>
-						</li>
-						<li class="sr-section-item">
-							<div class="primary-content">
-								<a
-									href="https://apps.apple.com/us/app/gosquare/id1467607258"
-									target="_blank"
-									rel="noopener noreferrer nofollow"
-									class="c-fancy-link"
-								>
-									<h3>React and React Native Developer</h3>
-									<div class="icon-link"></div>
-								</a>
-								<div class="secondary">
-									<span>Gosquare</span>
-									<span class="separator">|</span>
-									<span>Feb, 2019 – Nov 2019</span>
-								</div>
-								<p>
-									Worked as a front-end and mobile engineer on
-									a logistics product that helps users find
-									dispatch riders to fulfill orders and
-									deliver packages.
-								</p>
-							</div>
-						</li>
-					</ul>
-				</section>
-
-				<section class="sr-section">
-					<h2>Skills</h2>
-					<ul class="sr-section-items">
-						<ul class="section-highlights tags">
-							<li class="section-highlight">HTML</li>
-							<li class="section-highlight">CSS</li>
-							<li class="section-highlight">
-								JavaScript(ES6 -ES7)
-							</li>
-							<li class="section-highlight">PWA</li>
-							<li class="section-highlight">React.js</li>
-							<li class="section-highlight">ReactNative</li>
-							<li class="section-highlight">Redux</li>
-							<li class="section-highlight">GraphQL</li>
-							<li class="section-highlight">D3.js</li>
-							<li class="section-highlight">Firebase</li>
-							<li class="section-highlight">PHP</li>
-							<li class="section-highlight">Nodejs</li>
-							<li class="section-highlight">Bootstrap</li>
-							<li class="section-highlight">Linux</li>
-							<li class="section-highlight">SQL</li>
-							<li class="section-highlight">Git</li>
-							<li class="section-highlight">Jquery</li>
-							<li class="section-highlight">Sass</li>
-							<li class="section-highlight">Jest</li>
-							<li class="section-highlight">Mocha</li>
-							<li class="section-highlight">TypeScript</li>
-							<li class="section-highlight">Webpack</li>
-							<li class="section-highlight">Docker</li>
-							<li class="section-highlight">CircleCI</li>
-							<li class="section-highlight">Fastlane</li>
-							<li class="section-highlight">Styled Components</li>
-							<li class="section-highlight">CssModules</li>
-							<li class="section-highlight">Material-UI</li>
+						<p class="job-description">
+							Lead Mobile Engineer on the Payment and Integration team, building and maintaining Terminal, Wallet, KYC, and POS Terminal applications. Successfully deployed multiple apps to iOS App Store and Google Play Store.
+						</p>
+						<ul class="highlights">
+							<li>Built and maintained Bumpa mobile apps for iOS and Android, deployed to both app stores</li>
+							<li>Architected native module bridges connecting React Native with native Android payment hardware, demonstrating expertise in native-web communication patterns</li>
+							<li>Integrated mobile applications with web services, RESTful APIs, and Node.js backends</li>
+							<li>Implemented state management solutions (Redux) and optimized for performance and scalability</li>
+							<li>Led team and mentored developers while contributing to technical architecture decisions</li>
 						</ul>
-					</ul>
+					</div>
+
+					<div class="experience-item">
+						<div class="experience-header">
+							<div class="job-title">Senior Software Engineer | Mobile Team Lead</div>
+							<div class="company-info"><a href="https://www.trybrass.com/" target="_blank" style="color: #2563eb; text-decoration: none;">Brass Technologies</a> | March 2021 – August 2024</div>
+						</div>
+						<p class="job-description">
+							Mobile Team Lead and Senior React/React Native engineer for a banking platform helping SMEs with financial operations. Successfully deployed Brass mobile app to iOS App Store and Google Play Store, serving thousands of users.
+						</p>
+						<ul class="highlights">
+							<li>Led development of mobile app (React Native), deployed to app stores and joined the development of the Brass banking dashboard (React.js) </li>
+							<li>Integrated mobile applications with web services, APIs, and React web platform for seamless cross-platform experiences</li>
+							<li>Developed Brass UI Kit based on design system, improving efficiency across mobile and web</li>
+							<li>Implemented CI/CD with Codemagic, automated deployments with Fastlane</li>
+							<li>Wrote unit tests with React Native Testing Library, Jest, and Vitest; end-to-end tests with Detox</li>
+							<li>Ensured seamless integration with Node.js backend services</li>
+						</ul>
+					</div>
+
+					<div class="experience-item">
+						<div class="experience-header">
+							<div class="job-title">React Native Engineer | Frontend Engineer</div>
+							<div class="company-info"><a href="https://rise.capital/" target="_blank" style="color: #2563eb; text-decoration: none;">RiseVest</a> | April 2020 – April 2021</div>
+						</div>
+						<p class="job-description">
+							Built and deployed mobile applications to iOS App Store and Google Play Store for a finance company connecting Africans with dollar-denominated investment opportunities.
+						</p>
+						<ul class="highlights">
+							<li>Built Advisory app and Risevest application for iOS and Android, deployed to app stores</li>
+							<li>Leveraged native APIs for deep integrations, bridging native functionality with React Native</li>
+						</ul>
+					</div>
+
+					<div class="experience-item">
+						<div class="experience-header">
+							<div class="job-title">Frontend Developer</div>
+							<div class="company-info"><a href="https://sportcompass.net/" target="_blank" style="color: #2563eb; text-decoration: none;">SportCompass, Denmark</a> | September 2019 – March 2020</div>
+						</div>
+						<p class="job-description">
+							Transformed website from server-side Ruby to React PWA, demonstrating proficiency in React.js web development.
+						</p>
+					</div>
 				</section>
 
-				<footer class="footer-logo-wrap">
-					<a
-						class="footer-link"
-						href="assets/EmmanuelAkindeCV.pdf"
-						title="Download"
-						download
-					>
-						<img
-							class="footer-logo"
-							src="assets/Download_PDF.png"
-							title="Download"
-							alt="Download"
-						/>
-					</a>
-				</footer>
+				<section class="section">
+					<h2 class="section-title">Education</h2>
+					<div class="education-item">
+						<div class="degree">Bachelor of Science in Computer Engineering</div>
+						<div class="school">Obafemi Awolowo University</div>
+						<div class="education-date">March 2012 – February 2017</div>
+                        <div class="job-description">Relevant coursework: Data Structures and Algorithms, Object-Oriented Programming, Software Engineering. Programming languages: JavaScript, TypeScript, Python, Java.</div>
+					</div>
+
+				</section>
+			</div>
+
+			<div class="right-column">
+				<section class="section">
+					<h2 class="section-title">Training / Courses</h2>
+					<div class="training-item">
+						<div class="training-title">Kotlin Apprentice</div>
+						<div class="training-desc">Beginning Programming with Kotlin</div>
+					</div>
+					<div class="training-item">
+						<div class="training-title">Typescript: The Complete Developer's Guide</div>
+						<div class="training-desc">Master Typescript with design patterns and complex projects</div>
+					</div>
+					<div class="training-item">
+						<div class="training-title">Node.js Master Class</div>
+						<div class="training-desc">Core Node.js concepts without frameworks</div>
+					</div>
+				</section>
+				<section class="section">
+					<h2 class="section-title">Projects</h2>
+					
+					<div class="project-item">
+						<a href="https://www.maoniapp.com/" target="_blank" class="project-title project-link">Maoni App - iOS & Android</a>
+						<p class="project-desc">Built complete mobile application for iOS and Android using React Native. Successfully deployed to iOS App Store and Google Play Store.</p>
+					</div>
+				</section>
+
+				<section class="section">
+					<h2 class="section-title">Key Achievements</h2>
+
+                    <div class="achievement-item">
+						<div class="achievement-title">Native-Web Bridge Architecture</div>
+						<div class="achievement-desc">Architected native module integration for Bumpa POS, creating a robust bridge between React Native and native Android payment hardware, demonstrating expertise in native-web communication patterns.</div>
+					</div>
+
+                    <div class="achievement-item">
+						<div class="achievement-title">Led Mobile App Expansion (Bumpa and Brass)</div>
+						<div class="achievement-desc">Led mobile app expansion into multiple countries, implemented internationalization (i18n) for global reach, and updated payment client integrations to support new markets and payment methods.</div>
+					</div>
+					
+					<div class="achievement-item">
+						<div class="achievement-title">App Store Deployment Success</div>
+						<div class="achievement-desc">Successfully deployed and maintained multiple mobile applications across iOS App Store and Google Play Store for Bumpa, Brass, and RiseVest, used by thousands of users.</div>
+					</div>
+
+					<div class="achievement-item">
+						<div class="achievement-title">Offline-First Architecture</div>
+						<div class="achievement-desc">Architected offline capability for Bumpa POS using WaterMelon DB, enabling seamless payment processing and data synchronization in low-connectivity environments.</div>
+					</div>
+				</section>
+
+				<section class="section">
+					<h2 class="section-title">Skills</h2>
+					<ul class="skills-list">
+						<li>React Native</li>
+						<li>React.js</li>
+						<li>TypeScript</li>
+						<li>JavaScript</li>
+						<li>Node.js</li>
+						<li>Redux</li>
+						<li>Kotlin</li>
+						<li>Swift</li>
+						<li>Java</li>
+						<li>WebView</li>
+						<li>Native-Web Bridge</li>
+						<li>CI/CD</li>
+						<li>OTA (EAS Update)</li>
+						<li>OTA (CODEPUSH)</li>
+						<li>Fastlane</li>
+						<li>GraphQL</li>
+						<li>Git</li>
+						<li>Jest</li>
+						<li>Vitest</li>
+						<li>React Native Testing Library</li>
+						<li>Detox</li>
+						<li>Docker</li>
+						<li>Firebase</li>
+						<li>RESTful APIs</li>
+						<li>Reactotron</li>
+						<li>WaterMelon DB</li>
+					</ul>
+				</section>
+				<section class="section">
+					<h2 class="section-title">Passions</h2>
+					<div class="passion-item">
+						<div class="passion-title">Mobile Development</div>
+						<div class="passion-desc">Passionate about creating innovative mobile solutions with special interest in hybrid mobile-web architectures.</div>
+					</div>
+					<div class="passion-item">
+						<div class="passion-title">Filmmaking</div>
+						<div class="passion-desc">Passionate about storytelling through film, exploring creative narratives and visual expression.</div>
+					</div>
+				</section>
 			</div>
 		</div>
-	</body>
-	<script
-		src="https://platform.linkedin.com/badges/js/profile.js"
-		async
-		defer
-		type="text/javascript"
-	></script>
+	</div>
+</body>
 </html>
